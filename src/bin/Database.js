@@ -5,7 +5,7 @@ class Database {
   async connect() {
     try {
       await mongoose.connect(
-        "mongodb://localhost:27017/my_music_collection_db",
+        "mongodb+srv://isandy9310:93102103201@cluster0-d3hfy.mongodb.net/problemalectoescritura?retryWrites=true",
         { useNewUrlParser: true }
       );
       console.log("Connected databases.");
